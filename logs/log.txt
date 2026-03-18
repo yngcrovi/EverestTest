@@ -1,0 +1,1041 @@
+[2026-03-18 17:31:16] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:16] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-kS6GK1 --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-kS6GK1 --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:16] 👋 Программа завершена
+[2026-03-18 17:31:17] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:17] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-8Fazgp --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-8Fazgp --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:17] 👋 Программа завершена
+[2026-03-18 17:31:18] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:18] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-7A1Z48 --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-7A1Z48 --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:18] 👋 Программа завершена
+[2026-03-18 17:31:19] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:20] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-m028JB --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-m028JB --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:20] 👋 Программа завершена
+[2026-03-18 17:31:21] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:21] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-FhLLXY --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-FhLLXY --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:21] 👋 Программа завершена
+[2026-03-18 17:31:24] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:24] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-C0Brei --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-C0Brei --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:24] 👋 Программа завершена
+[2026-03-18 17:31:28] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:31:28] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-RwEMQI --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-RwEMQI --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libgbm.so.1: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:31:28] 👋 Программа завершена
+[2026-03-18 17:52:02] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:02] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-DGp6pS --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-DGp6pS --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:02] 👋 Программа завершена
+[2026-03-18 17:52:03] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:03] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-y8HYEj --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-y8HYEj --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:03] 👋 Программа завершена
+[2026-03-18 17:52:04] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:04] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-P6fdqX --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-P6fdqX --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:04] 👋 Программа завершена
+[2026-03-18 17:52:05] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:06] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-ElxHCw --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-ElxHCw --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:06] 👋 Программа завершена
+[2026-03-18 17:52:07] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:07] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-jcIloe --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-jcIloe --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:07] 👋 Программа завершена
+[2026-03-18 17:52:10] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:10] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-p5J3so --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-p5J3so --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:10] 👋 Программа завершена
+[2026-03-18 17:52:14] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:14] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-bAbgrs --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-bAbgrs --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:14] 👋 Программа завершена
+[2026-03-18 17:52:21] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:21] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-YsHd2m --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-YsHd2m --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:21] 👋 Программа завершена
+[2026-03-18 17:52:35] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:52:35] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-JpkBLf --remote-debugging-pipe --no-startup-window
+<launched> pid=18
+[pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-JpkBLf --remote-debugging-pipe --no-startup-window
+  - <launched> pid=18
+  - [pid=18][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=18] <gracefully close start>
+  - [pid=18] <kill>
+  - [pid=18] <will force kill>
+  - [pid=18] exception while trying to kill process: Error: kill ESRCH
+  - [pid=18] <process did exit: exitCode=127, signal=null>
+  - [pid=18] starting temporary directories cleanup
+  - [pid=18] finished temporary directories cleanup
+  - [pid=18] <gracefully close end>
+
+[2026-03-18 17:52:35] 👋 Программа завершена
+[2026-03-18 17:53:01] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 17:53:02] ❌ Ошибка: BrowserType.launch: Target page, context or browser has been closed
+Browser logs:
+
+<launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-tilFb1 --remote-debugging-pipe --no-startup-window
+<launched> pid=19
+[pid=19][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+Call log:
+  - <launching> /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --no-sandbox --disable-dev-shm-usage --disable-blink-features=AutomationControlled --disable-gpu --disable-software-rasterizer --user-data-dir=/tmp/playwright_chromiumdev_profile-tilFb1 --remote-debugging-pipe --no-startup-window
+  - <launched> pid=19
+  - [pid=19][err] /root/.cache/ms-playwright/chromium-1208/chrome-linux64/chrome: error while loading shared libraries: libasound.so.2: cannot open shared object file: No such file or directory
+  - [pid=19] <gracefully close start>
+  - [pid=19] <kill>
+  - [pid=19] <will force kill>
+  - [pid=19] exception while trying to kill process: Error: kill ESRCH
+  - [pid=19] <process did exit: exitCode=127, signal=null>
+  - [pid=19] starting temporary directories cleanup
+  - [pid=19] finished temporary directories cleanup
+  - [pid=19] <gracefully close end>
+
+[2026-03-18 17:53:02] 👋 Программа завершена
+[2026-03-18 18:01:04] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:01:05] ✅ Загружено 35 кук
+[2026-03-18 18:01:05] 
+🔄 [18:01:05] Обновление страницы...
+[2026-03-18 18:01:11] ✅ Страница успешно загружена
+[2026-03-18 18:01:11] 💾 Сохранено 36 кук
+[2026-03-18 18:01:11] 🔄 Выполняем парсинг...
+[2026-03-18 18:01:11] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:01:13] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:01:13] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:01:13] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:01:24] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:01:24] 👋 Программа завершена
+[2026-03-18 18:01:24] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:01:25] ✅ Загружено 36 кук
+[2026-03-18 18:01:25] 
+🔄 [18:01:25] Обновление страницы...
+[2026-03-18 18:01:30] ✅ Страница успешно загружена
+[2026-03-18 18:01:30] 💾 Сохранено 36 кук
+[2026-03-18 18:01:30] 🔄 Выполняем парсинг...
+[2026-03-18 18:01:30] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:01:32] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:01:32] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:01:32] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:01:42] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:01:42] 👋 Программа завершена
+[2026-03-18 18:01:43] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:01:44] ✅ Загружено 36 кук
+[2026-03-18 18:01:44] 
+🔄 [18:01:44] Обновление страницы...
+[2026-03-18 18:01:49] ✅ Страница успешно загружена
+[2026-03-18 18:01:49] 💾 Сохранено 36 кук
+[2026-03-18 18:01:49] 🔄 Выполняем парсинг...
+[2026-03-18 18:01:49] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:01:51] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:01:51] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:01:51] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:11:27] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:11:28] ✅ Загружено 36 кук
+[2026-03-18 18:11:28] 
+🔄 [18:11:28] Обновление страницы...
+[2026-03-18 18:11:34] ✅ Страница успешно загружена
+[2026-03-18 18:11:34] 💾 Сохранено 35 кук
+[2026-03-18 18:11:34] 🔄 Выполняем парсинг...
+[2026-03-18 18:11:34] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:11:36] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:11:36] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:11:36] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:11:46] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:11:46] 👋 Программа завершена
+[2026-03-18 18:13:28] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:13:29] ✅ Загружено 35 кук
+[2026-03-18 18:13:29] 
+🔄 [18:13:29] Обновление страницы...
+[2026-03-18 18:13:34] ✅ Страница успешно загружена
+[2026-03-18 18:13:34] 💾 Сохранено 35 кук
+[2026-03-18 18:13:34] 🔄 Выполняем парсинг...
+[2026-03-18 18:13:34] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:13:36] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:13:36] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:13:36] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:13:46] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:13:46] 👋 Программа завершена
+[2026-03-18 18:13:47] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:13:57] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:13:57] ✅ Загружено 35 кук
+[2026-03-18 18:13:58] 
+🔄 [18:13:58] Обновление страницы...
+[2026-03-18 18:14:03] ✅ Страница успешно загружена
+[2026-03-18 18:14:03] 💾 Сохранено 35 кук
+[2026-03-18 18:14:03] 🔄 Выполняем парсинг...
+[2026-03-18 18:14:03] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:14:05] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:14:05] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:14:05] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:14:15] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:14:16] 👋 Программа завершена
+[2026-03-18 18:21:45] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:21:46] ✅ Загружено 35 кук
+[2026-03-18 18:21:46] 
+🔄 [18:21:46] Обновление страницы...
+[2026-03-18 18:21:51] ✅ Страница успешно загружена
+[2026-03-18 18:21:51] 💾 Сохранено 35 кук
+[2026-03-18 18:21:51] 🔄 Выполняем парсинг...
+[2026-03-18 18:21:51] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:21:53] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:21:53] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:21:53] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:22:04] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:22:04] 👋 Программа завершена
+[2026-03-18 18:22:04] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:22:05] ✅ Загружено 35 кук
+[2026-03-18 18:22:05] 
+🔄 [18:22:05] Обновление страницы...
+[2026-03-18 18:22:10] ✅ Страница успешно загружена
+[2026-03-18 18:22:10] 💾 Сохранено 35 кук
+[2026-03-18 18:22:10] 🔄 Выполняем парсинг...
+[2026-03-18 18:22:10] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:25:49] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:25:50] ✅ Загружено 35 кук
+[2026-03-18 18:25:51] 
+🔄 [18:25:51] Обновление страницы...
+[2026-03-18 18:26:03] ✅ Страница успешно загружена
+[2026-03-18 18:26:03] 💾 Сохранено 35 кук
+[2026-03-18 18:26:03] 🔄 Выполняем парсинг...
+[2026-03-18 18:26:03] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:26:05] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:26:05] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:26:05] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:27:11] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:27:12] ✅ Загружено 35 кук
+[2026-03-18 18:27:12] 
+🔄 [18:27:12] Обновление страницы...
+[2026-03-18 18:27:18] ✅ Страница успешно загружена
+[2026-03-18 18:27:18] 💾 Сохранено 35 кук
+[2026-03-18 18:27:18] 🔄 Выполняем парсинг...
+[2026-03-18 18:27:18] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:27:20] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:27:20] ⏱️ Время выполнения парсинга fedresurs.ru: 0.00 секунд
+[2026-03-18 18:27:20] 🔄 Получаем норера дел из таблицы bankruptcy_info...
+[2026-03-18 18:27:30] ❌ Ошибка: [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:27:31] 👋 Программа завершена
+[2026-03-18 18:27:31] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:27:32] ✅ Загружено 35 кук
+[2026-03-18 18:27:32] 
+🔄 [18:27:32] Обновление страницы...
+[2026-03-18 18:30:11] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:30:12] ✅ Загружено 35 кук
+[2026-03-18 18:30:12] 
+🔄 [18:30:12] Обновление страницы...
+[2026-03-18 18:30:17] ✅ Страница успешно загружена
+[2026-03-18 18:30:17] 💾 Сохранено 35 кук
+[2026-03-18 18:30:17] 🔄 Выполняем парсинг...
+[2026-03-18 18:30:17] <Locator frame=<Frame name= url='https://fedresurs.ru/'> selector='button.el-button'>
+[2026-03-18 18:30:17] кнопка нажата
+[2026-03-18 18:30:17] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:30:19] Нашли li
+[2026-03-18 18:30:19] ✅ Найдена вкладка "Физические лица"
+[2026-03-18 18:30:19] 🔄 Загрузка дополнительных данных...
+[2026-03-18 18:30:21] ✅  Загружена порция 1/6
+[2026-03-18 18:30:23] ✅  Загружена порция 2/6
+[2026-03-18 18:30:25] ✅  Загружена порция 3/6
+[2026-03-18 18:30:28] ✅  Загружена порция 4/6
+[2026-03-18 18:30:30] ✅  Загружена порция 5/6
+[2026-03-18 18:30:32] ✅  Загружена порция 6/6
+[2026-03-18 18:30:32] ✅ Найдено 105 человек
+[2026-03-18 18:30:32] ✅ Обработано 10/105
+[2026-03-18 18:30:32] ✅ Обработано 20/105
+[2026-03-18 18:30:32] ✅ Обработано 30/105
+[2026-03-18 18:30:33] ✅ Обработано 40/105
+[2026-03-18 18:30:33] ✅ Обработано 50/105
+[2026-03-18 18:30:33] ✅ Обработано 60/105
+[2026-03-18 18:30:33] ✅ Обработано 70/105
+[2026-03-18 18:30:33] ✅ Обработано 80/105
+[2026-03-18 18:30:33] ✅ Обработано 90/105
+[2026-03-18 18:30:34] ✅ Обработано 100/105
+[2026-03-18 18:30:34] 🔄 Сохраняем данные в таблицу people...
+[2026-03-18 18:30:44] ❌ Ошибка в parse_individuals(): [Errno -3] Temporary failure in name resolution
+[2026-03-18 18:30:44] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:30:44] 🚀 Запускаем параллельный парсинг с 4 вкладками...
+[2026-03-18 18:30:44] ❌ Ошибка: 'bool' object is not iterable
+[2026-03-18 18:30:44] 👋 Программа завершена
+[2026-03-18 18:30:45] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:30:45] ✅ Загружено 35 кук
+[2026-03-18 18:30:45] 
+🔄 [18:30:45] Обновление страницы...
+[2026-03-18 18:30:55] ✅ Страница успешно загружена
+[2026-03-18 18:30:55] 💾 Сохранено 35 кук
+[2026-03-18 18:30:55] 🔄 Выполняем парсинг...
+[2026-03-18 18:30:55] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:30:57] Нашли li
+[2026-03-18 18:30:57] ✅ Найдена вкладка "Физические лица"
+[2026-03-18 18:30:57] 🔄 Загрузка дополнительных данных...
+[2026-03-18 18:30:59] ✅  Загружена порция 1/6
+[2026-03-18 18:31:01] ✅  Загружена порция 2/6
+[2026-03-18 18:31:04] ✅  Загружена порция 3/6
+[2026-03-18 18:31:06] ✅  Загружена порция 4/6
+[2026-03-18 18:31:08] ✅  Загружена порция 5/6
+[2026-03-18 18:31:10] ✅  Загружена порция 6/6
+[2026-03-18 18:31:10] ✅ Найдено 105 человек
+[2026-03-18 18:31:10] ✅ Обработано 10/105
+[2026-03-18 18:31:10] ✅ Обработано 20/105
+[2026-03-18 18:31:10] ✅ Обработано 30/105
+[2026-03-18 18:31:11] ✅ Обработано 40/105
+[2026-03-18 18:31:11] ✅ Обработано 50/105
+[2026-03-18 18:31:11] ✅ Обработано 60/105
+[2026-03-18 18:31:11] ✅ Обработано 70/105
+[2026-03-18 18:31:11] ✅ Обработано 80/105
+[2026-03-18 18:31:12] ✅ Обработано 90/105
+[2026-03-18 18:31:12] ✅ Обработано 100/105
+[2026-03-18 18:31:12] 🔄 Сохраняем данные в таблицу people...
+[2026-03-18 18:36:58] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:36:59] ✅ Загружено 35 кук
+[2026-03-18 18:36:59] 
+🔄 [18:36:59] Обновление страницы...
+[2026-03-18 18:37:05] ✅ Страница успешно загружена
+[2026-03-18 18:37:05] 💾 Сохранено 35 кук
+[2026-03-18 18:37:05] 🔄 Выполняем парсинг...
+[2026-03-18 18:37:05] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:37:07] ✅ Найдена вкладка "Физические лица"
+[2026-03-18 18:37:07] 🔄 Загрузка дополнительных данных...
+[2026-03-18 18:37:09] ✅  Загружена порция 1/6
+[2026-03-18 18:37:11] ✅  Загружена порция 2/6
+[2026-03-18 18:37:13] ✅  Загружена порция 3/6
+[2026-03-18 18:37:15] ✅  Загружена порция 4/6
+[2026-03-18 18:37:17] ✅  Загружена порция 5/6
+[2026-03-18 18:37:19] ✅  Загружена порция 6/6
+[2026-03-18 18:37:19] ✅ Найдено 105 человек
+[2026-03-18 18:37:19] ✅ Обработано 10/105
+[2026-03-18 18:37:20] ✅ Обработано 20/105
+[2026-03-18 18:37:20] ✅ Обработано 30/105
+[2026-03-18 18:37:20] ✅ Обработано 40/105
+[2026-03-18 18:37:20] ✅ Обработано 50/105
+[2026-03-18 18:37:20] ✅ Обработано 60/105
+[2026-03-18 18:37:21] ✅ Обработано 70/105
+[2026-03-18 18:37:21] ✅ Обработано 80/105
+[2026-03-18 18:37:21] ✅ Обработано 90/105
+[2026-03-18 18:37:21] ✅ Обработано 100/105
+[2026-03-18 18:37:21] 🔄 Сохраняем данные в таблицу people...
+[2026-03-18 18:37:21] ✅ Данные успешно сохранены в таблицу people
+[2026-03-18 18:37:21] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:37:21] 🚀 Запускаем параллельный парсинг с 4 вкладками...
+[2026-03-18 18:37:40] ✅ 45/105: Князев Станислав Алексеевич
+[2026-03-18 18:37:41] ✅ 76/105: Воронкова Татьяна Александровна
+[2026-03-18 18:37:42] ⚠️ Нет данных: Валов Сергей Владимирович
+[2026-03-18 18:37:42] ⚠️ Нет данных: Сычева Екатерина Игоревна
+[2026-03-18 18:37:59] ✅ 14/105: Швецова Екатерина Федоровна
+[2026-03-18 18:38:11] ✅ 47/105: Пигулка Ольга Георгиевна
+[2026-03-18 18:38:20] ✅ 78/105: Кобазева Виктория Сергеевна
+[2026-03-18 18:38:20] 📊 Прогресс: 5/105 за 59с
+[2026-03-18 18:38:24] ✅ 2/105: Новиков Андрей Александрович
+[2026-03-18 18:38:27] ✅ 48/105: Хитров Дмитрий Анатольевич
+[2026-03-18 18:38:28] ✅ 16/105: Вартанов Михаил Эдуардович
+[2026-03-18 18:38:44] ✅ 49/105: Велиев Фуад Исмаил-Оглы
+[2026-03-18 18:38:53] ✅ 18/105: Гринькив Ольга Борисовна
+[2026-03-18 18:38:53] 📊 Прогресс: 10/105 за 92с
+[2026-03-18 18:38:55] 📊 Прогресс: 10/105 за 93с
+[2026-03-18 18:39:01] ✅ 81/105: Агазарян Агаси Владимирович
+[2026-03-18 18:39:24] ⚠️ Нет данных: Абукаев Андрей Александрович
+[2026-03-18 18:39:36] ✅ 83/105: Алиева Туркан Исабала кызы
+[2026-03-18 18:39:46] ✅ 21/105: Загребаева Анастасия Сергеевна
+[2026-03-18 18:39:47] ✅ 53/105: Быков Михаил Владимирович
+[2026-03-18 18:39:55] ✅ 84/105: Геворгян Арсен Аразатович
+[2026-03-18 18:39:55] 📊 Прогресс: 15/105 за 153с
+[2026-03-18 18:39:56] ✅ 7/105: Табанаков Павел Алексеевич
+[2026-03-18 18:40:04] ✅ 54/105: Пыхтин Вадим Юрьевич
+[2026-03-18 18:40:10] ⚠️ Нет данных: Минивалеев Ильдар Дамирович
+[2026-03-18 18:40:24] ✅ 55/105: Когаев Андрей Анатольевич
+[2026-03-18 18:40:36] ✅ 86/105: Волкова Анна Святославовна
+[2026-03-18 18:40:47] ⚠️ Нет данных: Косицын Виталий Юрьевич
+[2026-03-18 18:40:49] ✅ 25/105: Слободчиков Дмитрий Владимирович
+[2026-03-18 18:40:49] 📊 Прогресс: 20/105 за 207с
+[2026-03-18 18:40:57] ✅ 57/105: Бегларян Ирина Игоревна
+[2026-03-18 18:41:09] ✅ 88/105: Морозова Юлия Юрьевна
+[2026-03-18 18:41:10] ✅ 34/105: Назмутдинова Ильзида Шамильевна
+[2026-03-18 18:41:10] ✅ 58/105: Андрос Елена Владимировна
+[2026-03-18 18:41:25] ⚠️ Нет данных: Воронина Дарья Романовна
+[2026-03-18 18:41:25] ✅ 90/105: Чиркова Наталья Юрьевна
+[2026-03-18 18:41:25] 📊 Прогресс: 25/105 за 243с
+[2026-03-18 18:41:26] 📊 Прогресс: 25/105 за 244с
+[2026-03-18 18:41:28] ⚠️ Нет данных: Колмакова Алёна Павловна
+[2026-03-18 18:41:29] 📊 Прогресс: 25/105 за 247с
+[2026-03-18 18:41:39] 📊 Прогресс: 25/105 за 258с
+[2026-03-18 18:41:41] ✅ 27/105: Чугреева Юлия Сергеевна
+[2026-03-18 18:41:42] ✅ 60/105: Колесниченко Анатолий Николаевич
+[2026-03-18 18:41:47] ✅ 91/105: Климов Дамир Мансурович
+[2026-03-18 18:41:57] ⚠️ Нет данных: Талиманчук Артём Владимирович
+[2026-03-18 18:41:58] ✅ 28/105: Агайгельдиева Виктория Сергеевна
+[2026-03-18 18:41:59] ✅ 92/105: Голдин Сергей Александрович
+[2026-03-18 18:41:59] 📊 Прогресс: 30/105 за 277с
+[2026-03-18 18:42:06] 📊 Прогресс: 30/105 за 284с
+[2026-03-18 18:42:18] ✅ 62/105: Воробьев Роман Константинович
+[2026-03-18 18:42:19] ✅ 93/105: Проявко Наталия Сергеевна
+[2026-03-18 18:42:34] ⚠️ Нет данных: Безруких Сергей Борисович
+[2026-03-18 18:42:35] ✅ 94/105: Альтдорф Глеб Викторович
+[2026-03-18 18:42:35] ✅ 64/105: Майсурадзе Ольга Анатольевна
+[2026-03-18 18:42:56] ✅ 32/105: Данков Александр Николаевич
+[2026-03-18 18:42:56] 📊 Прогресс: 35/105 за 334с
+[2026-03-18 18:42:57] ✅ 96/105: Тарасова Елена Владимировна
+[2026-03-18 18:43:12] ✅ 66/105: Шлыков Александр Иванович
+[2026-03-18 18:43:13] ✅ 97/105: Владимиров Павел Юрьевич
+[2026-03-18 18:43:13] ✅ 35/105: Тимирева Яна Андреевна
+[2026-03-18 18:43:18] ⚠️ Нет данных: Панин Владимир Иванович
+[2026-03-18 18:43:20] ✅ 67/105: Меркулов Александр Васильевич
+[2026-03-18 18:43:20] 📊 Прогресс: 40/105 за 358с
+[2026-03-18 18:43:27] 📊 Прогресс: 40/105 за 365с
+[2026-03-18 18:43:30] 📊 Прогресс: 40/105 за 369с
+[2026-03-18 18:43:39] 📊 Прогресс: 40/105 за 377с
+[2026-03-18 18:43:44] ✅ 99/105: Мельникова Елена Владимировна
+[2026-03-18 18:43:53] ✅ 37/105: Трунов Илья Сергеевич
+[2026-03-18 18:43:54] ✅ 69/105: Никонова Ирина Викторовна
+[2026-03-18 18:44:01] ✅ 100/105: Ясак Дмитрий Геннадьевич
+[2026-03-18 18:44:10] ✅ 101/105: Нурмакова Динара Асельбековна
+[2026-03-18 18:44:10] 📊 Прогресс: 45/105 за 408с
+[2026-03-18 18:44:18] ✅ 4/105: Кирилеев Дмитрий Евгеньевич
+[2026-03-18 18:44:19] ✅ 39/105: Редькин Роман Эдуардович
+[2026-03-18 18:44:27] ✅ 71/105: Юсубова Наргиля Вагифовна
+[2026-03-18 18:44:28] ✅ 102/105: Шутов Андрей Николаевич
+[2026-03-18 18:44:43] ✅ 72/105: Сушкова Александра Николаевна
+[2026-03-18 18:44:43] 📊 Прогресс: 50/105 за 441с
+[2026-03-18 18:44:45] 📊 Прогресс: 50/105 за 444с
+[2026-03-18 18:44:52] ✅ 10/105: Севумян Эллада Камоевна
+[2026-03-18 18:44:53] ✅ 41/105: Крадина Анастасия Сергеевна
+[2026-03-18 18:45:11] ✅ 42/105: РЫБАЧЕНКО ОЛЕГ ВИКТОРОВИЧ
+[2026-03-18 18:45:26] ✅ 105/105: Варламова Елена Анатольевна
+[2026-03-18 18:45:35] ⚠️ Нет данных: Таможникова София Михайловна
+[2026-03-18 18:45:36] ✅ 75/105: Афризунов Эльдар Эльбрусович
+[2026-03-18 18:45:36] 📊 Прогресс: 55/105 за 494с
+[2026-03-18 18:45:45] ✅ 44/105: Данилкина Екатерина Валерьевна
+[2026-03-18 18:45:45] 
+📊 Статистика за 504с:
+[2026-03-18 18:45:45]   ✅ Успешно: 56
+[2026-03-18 18:45:45]   ⚠️ Нет данных: 49
+[2026-03-18 18:45:45]   ⏱️ Таймаут: 0
+[2026-03-18 18:45:45]   ❌ Ошибки: 0
+[2026-03-18 18:45:45]   📦 Всего обработано: 105
+[2026-03-18 18:45:45] 🔄 Сохраняем 56 записей в таблицу bankruptcy_info...
+[2026-03-18 18:45:45] ❌ Ошибка: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.InvalidColumnReferenceError'>: there is no unique or exclusion constraint matching the ON CONFLICT specification
+[SQL:    
+                        INSERT INTO bankruptcy_info (inn, case_num, last_bankruptcy_dt)
+                        VALUES ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3)
+                        ON CONFLICT (inn, case_num) DO NOTHING;
+                    ]
+[parameters: [(780215403345, 'А56-11159/2023', datetime.date(2026, 3, 18)), (507501181259, 'А41-51774/2025', datetime.date(2026, 3, 18)), (280764919730, 'А04-1229/2026', datetime.date(2026, 3, 18)), (771682090634, 'А41-81147/2025', datetime.date(2026, 3, 18)), (233530842115, 'А32-6310/2025', datetime.date(2026, 3, 18)), (346001375328, 'А12-34945/2025', datetime.date(2026, 3, 18)), (701703003662, 'А75-14075/2014', datetime.date(2021, 10, 14)), (860225035531, 'А75-22086/2025', datetime.date(2026, 3, 18))  ... displaying 10 of 56 total bound parameter sets ...  (110380245606, 'А29-4316/2025', datetime.date(2026, 3, 18)), (222392005023, 'А40-35060/2022', datetime.date(2026, 3, 18))]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-18 18:45:46] 👋 Программа завершена
+[2026-03-18 18:45:46] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:45:47] ✅ Загружено 35 кук
+[2026-03-18 18:45:47] 
+🔄 [18:45:47] Обновление страницы...
+[2026-03-18 18:45:54] ✅ Страница успешно загружена
+[2026-03-18 18:45:54] 💾 Сохранено 35 кук
+[2026-03-18 18:45:54] 🔄 Выполняем парсинг...
+[2026-03-18 18:45:54] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:45:56] ✅ Найдена вкладка "Физические лица"
+[2026-03-18 18:45:56] 🔄 Загрузка дополнительных данных...
+[2026-03-18 18:45:58] ✅  Загружена порция 1/6
+[2026-03-18 18:46:00] ✅  Загружена порция 2/6
+[2026-03-18 18:46:02] ✅  Загружена порция 3/6
+[2026-03-18 18:46:04] ✅  Загружена порция 4/6
+[2026-03-18 18:46:06] ✅  Загружена порция 5/6
+[2026-03-18 18:46:08] ✅  Загружена порция 6/6
+[2026-03-18 18:46:08] ✅ Найдено 105 человек
+[2026-03-18 18:46:09] ✅ Обработано 10/105
+[2026-03-18 18:46:09] ✅ Обработано 20/105
+[2026-03-18 18:46:09] ✅ Обработано 30/105
+[2026-03-18 18:46:09] ✅ Обработано 40/105
+[2026-03-18 18:46:09] ✅ Обработано 50/105
+[2026-03-18 18:46:09] ✅ Обработано 60/105
+[2026-03-18 18:46:10] ✅ Обработано 70/105
+[2026-03-18 18:46:10] ✅ Обработано 80/105
+[2026-03-18 18:46:10] ✅ Обработано 90/105
+[2026-03-18 18:46:10] ✅ Обработано 100/105
+[2026-03-18 18:46:10] 🔄 Сохраняем данные в таблицу people...
+[2026-03-18 18:46:10] ✅ Данные успешно сохранены в таблицу people
+[2026-03-18 18:46:10] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:46:10] 🚀 Запускаем параллельный парсинг с 4 вкладками...
+[2026-03-18 18:46:31] ✅ 101/105: Гацанова Яна Александровна
+[2026-03-18 18:46:31] ✅ 39/105: Попов Григорий Геннадьевич
+[2026-03-18 18:46:33] ⚠️ Нет данных: Горбатова Надежда Александровна
+[2026-03-18 18:46:33] ⚠️ Нет данных: Айбазова Ирина Олеговна
+[2026-03-18 18:46:58] ✅ 40/105: Назаров Михаил Алексеевич
+[2026-03-18 18:47:03] ✅ 71/105: Дудаева Валентина Николаевна
+[2026-03-18 18:47:13] ✅ 103/105: Шахназарян Владимир Арменович
+[2026-03-18 18:47:13] 📊 Прогресс: 5/105 за 62с
+[2026-03-18 18:47:16] ✅ 9/105: Альдешева Забира Сагитовна
+[2026-03-18 18:47:21] ✅ 72/105: Ястребова Надежда Петровна
+[2026-03-18 18:47:31] ⚠️ Нет данных: Портнова Екатерина Сергеевна
+[2026-03-18 18:47:31] ⚠️ Нет данных: Валов Сергей Владимирович
+[2026-03-18 18:47:31] ⚠️ Нет данных: Федоркова Инга Евгеньевна
+[2026-03-18 18:48:01] ✅ 43/105: Пьянченко Василий Витальевич
+[2026-03-18 18:48:02] ⚠️ Нет данных: Бамбушев Сергей Шевяевич
+[2026-03-18 18:48:03] ⚠️ Нет данных: Новиков Андрей Александрович
+[2026-03-18 18:48:26] ⚠️ Нет данных: Боженко Сергей Викторович
+[2026-03-18 18:48:27] ✅ 12/105: Дранникова Екатерина Анатольевна
+[2026-03-18 18:48:37] ✅ 1/105: Поденко Алексей Сергеевич
+[2026-03-18 18:48:37] 📊 Прогресс: 10/105 за 146с
+[2026-03-18 18:48:44] 📊 Прогресс: 10/105 за 153с
+[2026-03-18 18:48:48] ✅ 45/105: Ким Антон Вячеславович
+[2026-03-18 18:48:51] ✅ 76/105: Трофимов Руслан Вахитовича
+[2026-03-18 18:48:58] ✅ 46/105: Волченсков Леонид Николаевич
+[2026-03-18 18:49:05] ✅ 77/105: Варламова Елена Анатольевна
+[2026-03-18 18:49:07] ⚠️ Нет данных: Лопатенко Алексей Андреевич
+[2026-03-18 18:49:24] ⚠️ Нет данных: Сычева Екатерина Игоревна
+[2026-03-18 18:49:26] ✅ 16/105: Подкуйко Сергей Петрович
+[2026-03-18 18:49:26] 📊 Прогресс: 15/105 за 195с
+[2026-03-18 18:49:28] 📊 Прогресс: 15/105 за 197с
+[2026-03-18 18:49:34] ✅ 48/105: Шиянова Светлана Александровна
+[2026-03-18 18:49:46] ✅ 17/105: Васильева Марина Николаевна
+[2026-03-18 18:49:47] ✅ 49/105: Васильев Павел Вячеславович
+[2026-03-18 18:49:55] ✅ 80/105: Романцова Марина Николаевна
+[2026-03-18 18:50:04] ✅ 81/105: Анисимов Андрей Вадимович
+[2026-03-18 18:50:04] 📊 Прогресс: 20/105 за 233с
+[2026-03-18 18:50:12] ✅ 19/105: Рассадникова Елена Александровна
+[2026-03-18 18:50:19] ⚠️ Нет данных: Полякова Елена Владимировна
+[2026-03-18 18:50:33] ✅ 83/105: Жаров Иван Васильевич
+[2026-03-18 18:50:50] ✅ 84/105: Гончаров Максим Александрович
+[2026-03-18 18:51:01] ✅ 22/105: Меринов Артем Валерьевич
+[2026-03-18 18:51:03] ✅ 54/105: Тастанова Алтынай Сисимбаевна
+[2026-03-18 18:51:03] 📊 Прогресс: 25/105 за 292с
+[2026-03-18 18:51:11] ✅ 85/105: Давыденко Галина Борисовна
+[2026-03-18 18:51:12] ✅ 7/105: Белозерова Елена Алексеевна
+[2026-03-18 18:51:20] ✅ 55/105: Кашина Яна Николаевна
+[2026-03-18 18:51:35] ✅ 24/105: Перфенов Руслан Владимирович
+[2026-03-18 18:51:42] ⚠️ Нет данных: Трифонова Анастасия Андреевна
+[2026-03-18 18:51:43] ✅ 87/105: Михайлечко Юлия Васильевна
+[2026-03-18 18:51:43] 📊 Прогресс: 30/105 за 332с
+[2026-03-18 18:51:50] ⚠️ Нет данных: Рассказчикова Татьяна Юрьевна
+[2026-03-18 18:51:51] 📊 Прогресс: 30/105 за 341с
+[2026-03-18 18:51:59] 📊 Прогресс: 30/105 за 348с
+[2026-03-18 18:52:07] ✅ 57/105: Духавской Станислав Владимирович
+[2026-03-18 18:52:08] ✅ 34/105: Абрамов Александр Николаевич
+[2026-03-18 18:52:16] ✅ 89/105: Голяк Иван Павлович
+[2026-03-18 18:52:24] ✅ 26/105: Смольянинова Любовь Юрьевна
+[2026-03-18 18:52:25] ✅ 59/105: Шаповалова Алёна Викторовна
+[2026-03-18 18:52:25] 📊 Прогресс: 35/105 за 374с
+[2026-03-18 18:52:32] 📊 Прогресс: 35/105 за 381с
+[2026-03-18 18:52:35] 📊 Прогресс: 35/105 за 384с
+[2026-03-18 18:52:41] ✅ 60/105: Николаева Ольга Сергеевна
+[2026-03-18 18:52:42] ✅ 91/105: Кесян Эмма Арутюновна
+[2026-03-18 18:52:50] ✅ 28/105: Слинкина Гульбина Хабиевна
+[2026-03-18 18:52:57] ✅ 92/105: Хандохова Мадина Аслановна
+[2026-03-18 18:52:59] ✅ 29/105: Рвачева Светлана Александровна
+[2026-03-18 18:52:59] 📊 Прогресс: 40/105 за 409с
+[2026-03-18 18:53:14] ✅ 30/105: Неледва Анна Романовна
+[2026-03-18 18:53:21] ✅ 94/105: Красовская Нина Федоровна
+[2026-03-18 18:53:39] ✅ 95/105: Лукашевич Виктор Петрович
+[2026-03-18 18:53:49] ✅ 96/105: Сапунков Никита Михайлович
+[2026-03-18 18:53:56] ✅ 33/105: Егорова Ульяна Павловна
+[2026-03-18 18:53:56] 📊 Прогресс: 45/105 за 465с
+[2026-03-18 18:53:57] ✅ 66/105: Медведева Юлия Курбангаджиевна
+[2026-03-18 18:54:01] ✅ 97/105: Крутикова Дарья Александровна
+[2026-03-18 18:54:10] ✅ 5/105: Мордачёв Василий Владимирович
+[2026-03-18 18:54:25] ✅ 36/105: Мальцева Елена Евгеньевна
+[2026-03-18 18:54:27] ✅ 68/105: Сейдалиев Дамирбек Камчибекович
+[2026-03-18 18:54:27] 📊 Прогресс: 50/105 за 496с
+[2026-03-18 18:54:29] ⚠️ Нет данных: Косицын Виталий Юрьевич
+[2026-03-18 18:54:30] 📊 Прогресс: 50/105 за 500с
+[2026-03-18 18:54:34] 📊 Прогресс: 50/105 за 503с
+[2026-03-18 18:54:42] ✅ 37/105: Шапекина Валентина Николаевна
+[2026-03-18 18:54:43] ✅ 100/105: Ширшова Евгения Дмитриевна
+[2026-03-18 18:54:43] 
+📊 Статистика за 512с:
+[2026-03-18 18:54:43]   ✅ Успешно: 52
+[2026-03-18 18:54:43]   ⚠️ Нет данных: 53
+[2026-03-18 18:54:43]   ⏱️ Таймаут: 0
+[2026-03-18 18:54:43]   ❌ Ошибки: 0
+[2026-03-18 18:54:43]   📦 Всего обработано: 105
+[2026-03-18 18:54:43] 🔄 Сохраняем 52 записей в таблицу bankruptcy_info...
+[2026-03-18 18:54:43] ❌ Ошибка: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.InvalidColumnReferenceError'>: there is no unique or exclusion constraint matching the ON CONFLICT specification
+[SQL:    
+                        INSERT INTO bankruptcy_info (inn, case_num, last_bankruptcy_dt)
+                        VALUES ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3), ($1, $2, $3)
+                        ON CONFLICT (inn, case_num) DO NOTHING;
+                    ]
+[parameters: [(250500322645, 'А51-17223/2025', datetime.date(2026, 3, 18)), (261805755200, 'А63-14855/2025', datetime.date(2026, 3, 18)), (637591499623, 'А55-2890/2025', datetime.date(2026, 3, 18)), (150901692200, 'А36-1341/2025', datetime.date(2026, 3, 18)), (366107118700, 'А14-3694/2025', datetime.date(2026, 3, 18)), (300500929448, 'А06-10664/2025', datetime.date(2026, 3, 18)), (344810542676, 'А12-29210/2025', datetime.date(2026, 3, 18)), (246518598430, 'А01-2717/2025', datetime.date(2026, 3, 18))  ... displaying 10 of 52 total bound parameter sets ...  (344812448781, 'А12-11686/2025', datetime.date(2026, 3, 18)), (637210254070, 'А55-38457/2025', datetime.date(2026, 3, 18))]]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+[2026-03-18 18:54:43] 👋 Программа завершена
+[2026-03-18 18:54:44] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 18:54:44] ✅ Загружено 35 кук
+[2026-03-18 18:54:44] 
+🔄 [18:54:44] Обновление страницы...
+[2026-03-18 18:54:50] ✅ Страница успешно загружена
+[2026-03-18 18:54:50] 💾 Сохранено 35 кук
+[2026-03-18 18:54:50] 🔄 Выполняем парсинг...
+[2026-03-18 18:54:50] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 18:54:52] ✅ Найдена вкладка "Физические лица"
+[2026-03-18 18:54:52] 🔄 Загрузка дополнительных данных...
+[2026-03-18 18:54:54] ✅  Загружена порция 1/6
+[2026-03-18 18:54:56] ✅  Загружена порция 2/6
+[2026-03-18 18:54:58] ✅  Загружена порция 3/6
+[2026-03-18 18:55:00] ✅  Загружена порция 4/6
+[2026-03-18 18:55:03] ✅  Загружена порция 5/6
+[2026-03-18 18:55:05] ✅  Загружена порция 6/6
+[2026-03-18 18:55:05] ✅ Найдено 105 человек
+[2026-03-18 18:55:05] ✅ Обработано 10/105
+[2026-03-18 18:55:05] ✅ Обработано 20/105
+[2026-03-18 18:55:05] ✅ Обработано 30/105
+[2026-03-18 18:55:05] ✅ Обработано 40/105
+[2026-03-18 18:55:06] ✅ Обработано 50/105
+[2026-03-18 18:55:06] ✅ Обработано 60/105
+[2026-03-18 18:55:06] ✅ Обработано 70/105
+[2026-03-18 18:55:06] ✅ Обработано 80/105
+[2026-03-18 18:55:06] ✅ Обработано 90/105
+[2026-03-18 18:55:06] ✅ Обработано 100/105
+[2026-03-18 18:55:07] 🔄 Сохраняем данные в таблицу people...
+[2026-03-18 18:55:07] ✅ Данные успешно сохранены в таблицу people
+[2026-03-18 18:55:07] 🔄 Ищем данные о банкротстве...
+[2026-03-18 18:55:07] 🚀 Запускаем параллельный парсинг с 4 вкладками...
+[2026-03-18 18:55:25] ✅ 101/105: Рвачева Светлана Александровна
+[2026-03-18 18:55:26] ✅ 39/105: Аманов Азер Ильфат Оглы
+[2026-03-18 18:55:27] ⚠️ Нет данных: АФАНАСЬЕВ МИХАИЛ АЛЕКСАНДРОВИЧ
+[2026-03-18 18:55:47] ✅ 70/105: Биналиева Ильмира Содаевна
+[2026-03-18 18:55:48] ✅ 102/105: Неледва Анна Романовна
+[2026-03-18 18:55:49] ✅ 8/105: Евдокимова Наталья Николаевна
+[2026-03-18 18:55:49] 📊 Прогресс: 5/105 за 42с
+[2026-03-18 18:55:50] 📊 Прогресс: 5/105 за 43с
+[2026-03-18 18:55:57] 📊 Прогресс: 5/105 за 50с
+[2026-03-18 18:56:02] 📊 Прогресс: 5/105 за 55с
+[2026-03-18 18:56:07] ✅ 9/105: Литяев Никита Николаевич
+[2026-03-18 18:56:08] ✅ 41/105: Коробова Елена Николаевна
+[2026-03-18 18:56:16] ✅ 72/105: Головин Роман Николаевич
+[2026-03-18 18:56:23] ✅ 10/105: Назаров Артур Сергеевич
+[2026-03-18 18:56:25] ✅ 42/105: Альхименко Сергей Владимирович
+[2026-03-18 18:56:25] 📊 Прогресс: 10/105 за 78с
+[2026-03-18 18:56:40] ⚠️ Нет данных: Осипов Евгений Юрьевич
+[2026-03-18 18:56:41] 📊 Прогресс: 10/105 за 94с
+[2026-03-18 18:56:43] ⚠️ Нет данных: Чахоян Кима Самвеловна
+[2026-03-18 18:56:44] 📊 Прогресс: 10/105 за 97с
+[2026-03-18 18:56:46] 📊 Прогресс: 10/105 за 99с
+[2026-03-18 18:56:48] 📊 Прогресс: 10/105 за 101с
+[2026-03-18 18:56:52] 📊 Прогресс: 10/105 за 105с
+[2026-03-18 18:57:04] 📊 Прогресс: 10/105 за 117с
+[2026-03-18 18:57:08] 📊 Прогресс: 10/105 за 121с
+[2026-03-18 18:57:09] ✅ 76/105: Гордеева Елена Борисовна
+[2026-03-18 18:57:14] ✅ 1/105: Кобазева Виктория Сергеевна
+[2026-03-18 18:57:22] ✅ 13/105: Исрапилов Хаважи Бетерсолтович
+[2026-03-18 18:57:24] ✅ 45/105: Фоменкова Екатерина Викторовна
+[2026-03-18 18:57:32] ✅ 14/105: Чернышов Анатолий Александрович
+[2026-03-18 18:57:32] 📊 Прогресс: 15/105 за 144с
+[2026-03-18 18:57:33] ✅ 46/105: Чабан Татьяна Александровна
+[2026-03-18 18:57:47] ⚠️ Нет данных: Колобошников Альберт Борисович
+[2026-03-18 18:57:51] ⚠️ Нет данных: Косых Денис Александрович
+[2026-03-18 18:58:13] ✅ 79/105: Фаек Полина Сергеевна
+[2026-03-18 18:58:17] ✅ 17/105: Титова Елена Викторовна
+[2026-03-18 18:58:21] ✅ 49/105: Теплинский Тихон Николаевич
+[2026-03-18 18:58:27] ✅ 80/105: Воробьев Артем Федорович
+[2026-03-18 18:58:27] 📊 Прогресс: 20/105 за 199с
+[2026-03-18 18:58:38] ⚠️ Нет данных: Харитонов Павел Михайлович
+[2026-03-18 18:58:39] 📊 Прогресс: 20/105 за 212с
+[2026-03-18 18:58:39] ✅ 18/105: Магомедова Айшат Исаевна
+[2026-03-18 18:58:39] ✅ 81/105: Поденко Алексей Сергеевич
+[2026-03-18 18:58:48] ✅ 19/105: Кондакова Ирина Михайловна
+[2026-03-18 18:58:59] ⚠️ Нет данных: Сычева Екатерина Игоревна
+[2026-03-18 18:59:01] ✅ 51/105: Серегин Даниил Вячеславович
+[2026-03-18 18:59:19] ⚠️ Нет данных: Попов Никита Алексеевич
+[2026-03-18 18:59:20] ✅ 83/105: Агеева Екатерина Валерьевна
+[2026-03-18 18:59:20] 📊 Прогресс: 25/105 за 252с
+[2026-03-18 18:59:20] 📊 Прогресс: 25/105 за 252с
+[2026-03-18 18:59:31] ⚠️ Нет данных: Кущенко Юлия Александровна
+[2026-03-18 18:59:32] ✅ 53/105: Слинкина Гульбина Хабиевна
+[2026-03-18 18:59:32] ✅ 84/105: Белозерова Елена Алексеевна
+[2026-03-18 18:59:52] ⚠️ Нет данных: Булгаков Евгений Викторович
+[2026-03-18 18:59:52] ✅ 4/105: Сурнина Наталья Васильевна
+[2026-03-18 18:59:53] ✅ 22/105: Оноприенко Виктор Васильевич
+[2026-03-18 18:59:53] ✅ 85/105: Альдешева Забира Сагитовна
+[2026-03-18 18:59:53] 📊 Прогресс: 30/105 за 286с
+[2026-03-18 19:00:05] 📊 Прогресс: 30/105 за 298с
+[2026-03-18 19:00:13] ✅ 23/105: Борзов Александр Викторович
+[2026-03-18 19:00:13] ✅ 55/105: Попов Максим Николаевич
+[2026-03-18 19:00:29] ⚠️ Нет данных: Скворцов Максим Серафимович
+[2026-03-18 19:00:30] ⚠️ Нет данных: Попова Наталья Александровна
+[2026-03-18 19:27:05] 🚀 Запуск постоянного браузера (С ДИСПЛЕЕМ)...
+[2026-03-18 19:27:06] ✅ Загружено 35 кук
+[2026-03-18 19:27:06] 
+🔄 [19:27:06] Обновление страницы...
+[2026-03-18 19:27:10] ✅ Страница успешно загружена
+[2026-03-18 19:27:10] 💾 Сохранено 36 кук
+[2026-03-18 19:27:10] 🔄 Выполняем парсинг...
+[2026-03-18 19:27:10] 🔄 Поиск ИНН для парсинга...
+[2026-03-18 19:27:12] ✅ Найдена вкладка "Физические лица"
+[2026-03-18 19:27:12] 🔄 Загрузка дополнительных данных...
+[2026-03-18 19:27:14] ✅  Загружена порция 1/6
+[2026-03-18 19:27:16] ✅  Загружена порция 2/6
+[2026-03-18 19:27:18] ✅  Загружена порция 3/6
+[2026-03-18 19:27:20] ✅  Загружена порция 4/6
+[2026-03-18 19:27:22] ✅  Загружена порция 5/6
+[2026-03-18 19:27:24] ✅  Загружена порция 6/6
+[2026-03-18 19:27:24] ✅ Найдено 105 человек
+[2026-03-18 19:27:25] ✅ Обработано 10/105
+[2026-03-18 19:27:25] ✅ Обработано 20/105
+[2026-03-18 19:27:25] ✅ Обработано 30/105
+[2026-03-18 19:27:25] ✅ Обработано 40/105
+[2026-03-18 19:27:25] ✅ Обработано 50/105
+[2026-03-18 19:27:26] ✅ Обработано 60/105
+[2026-03-18 19:27:26] ✅ Обработано 70/105
+[2026-03-18 19:27:26] ✅ Обработано 80/105
+[2026-03-18 19:27:26] ✅ Обработано 90/105
+[2026-03-18 19:27:26] ✅ Обработано 100/105
+[2026-03-18 19:27:26] 🔄 Сохраняем данные в таблицу people...
+[2026-03-18 19:27:27] ✅ Данные успешно сохранены в таблицу people
+[2026-03-18 19:27:27] 🔄 Ищем данные о банкротстве...
+[2026-03-18 19:27:27] 🚀 Запускаем параллельный парсинг с 4 вкладками...
+[2026-03-18 19:27:45] ✅ 67/104: Новикова Елена Ивановна
+[2026-03-18 19:27:48] ⚠️ Нет данных: Рыбак Марина Леонидовна
+[2026-03-18 19:27:48] ⚠️ Нет данных: Николаев Борис Викторович
+[2026-03-18 19:28:02] ✅ 68/104: Хромова Ольга Вячеславовна
+[2026-03-18 19:28:12] ✅ 100/104: Потапов Вячеслав Всеволодович
+[2026-03-18 19:28:13] ✅ 38/104: Селюков Борис Владимирович
+[2026-03-18 19:28:17] ✅ 69/104: Абдуллаева Феруза Валитовна
+[2026-03-18 19:28:17] 📊 Прогресс: 5/104 за 50с
+[2026-03-18 19:28:25] 📊 Прогресс: 5/104 за 58с
+[2026-03-18 19:28:29] ✅ 39/104: Корчагина Марина Викторрна
+[2026-03-18 19:28:34] ✅ 70/104: Хиль Алексей Алексеевич
+[2026-03-18 19:28:42] ✅ 71/104: Василюк Карина Сергеевна
+[2026-03-18 19:28:44] ✅ 8/104: Хорев Евгений Александрович
+[2026-03-18 19:28:51] ✅ 40/104: Васильева Елена Владимировна
+[2026-03-18 19:28:51] 📊 Прогресс: 10/104 за 84с
+[2026-03-18 19:28:52] ✅ 103/104: Балашов Сергей Дмитриевич
+[2026-03-18 19:29:00] ✅ 9/104: Вавин Михаил Павлович
+[2026-03-18 19:29:07] ✅ 72/104: Кочетова Светлана Владимировна
+[2026-03-18 19:29:17] ✅ 42/104: Абраменков Андрей Викторович
+[2026-03-18 19:29:25] ✅ 73/104: Милованов Сергей Витальевич
+[2026-03-18 19:29:25] 📊 Прогресс: 15/104 за 118с
+[2026-03-18 19:29:27] 📊 Прогресс: 15/104 за 120с
+[2026-03-18 19:29:33] ✅ 43/104: Исакова Галия Фаатовна
+[2026-03-18 19:29:35] ✅ 74/104: Дмитриев Николай Владимирович
+[2026-03-18 19:29:56] ⚠️ Нет данных: Жидович Вячеслав Вячеславович
+[2026-03-18 19:29:58] ⚠️ Нет данных: Агаев Рафаэль Шахинович
+[2026-03-18 19:30:21] ✅ 76/104: Пушкова Елена Вячеславовна
+[2026-03-18 19:30:30] ✅ 14/104: Воронова Алена Александровна
+[2026-03-18 19:30:32] ⚠️ Нет данных: Левин Юрий Михайлович
+[2026-03-18 19:30:43] ✅ 47/104: Пронченков Дмитрий Яковлевич
+[2026-03-18 19:30:43] 📊 Прогресс: 20/104 за 196с
+[2026-03-18 19:30:50] 📊 Прогресс: 20/104 за 202с
+[2026-03-18 19:30:51] 📊 Прогресс: 20/104 за 204с
+[2026-03-18 19:30:53] 📊 Прогресс: 20/104 за 206с
+[2026-03-18 19:30:57] 📊 Прогресс: 20/104 за 210с
+[2026-03-18 19:31:04] ✅ 48/104: Рогачев Дмитрий Николаевич
+[2026-03-18 19:31:08] ✅ 79/104: Киркевич Дарья Николаевна
+[2026-03-18 19:31:09] ✅ 17/104: Авалян Нарек Гагикович
+[2026-03-18 19:31:17] ✅ 49/104: Базаева Зарема Саид-Эминовна
+[2026-03-18 19:31:18] ✅ 80/104: Елисеева Анна Васильевна
+[2026-03-18 19:31:18] 📊 Прогресс: 25/104 за 231с
+[2026-03-18 19:31:24] 📊 Прогресс: 25/104 за 237с
+[2026-03-18 19:31:27] 📊 Прогресс: 25/104 за 240с
+[2026-03-18 19:31:41] ⚠️ Нет данных: Акулиничев Максим Александрович
+[2026-03-18 19:31:41] ✅ 82/104: Маринин Александр Александрович
+[2026-03-18 19:31:55] ✅ 52/104: Волков Евгений Валерьевич
+[2026-03-18 19:32:03] ✅ 83/104: Ермакова Марина Викторовна
+[2026-03-18 19:32:04] ✅ 3/104: Мещерякова Светлана Леонидовна
+[2026-03-18 19:32:12] ✅ 53/104: Кондратова Елизавета Сергеевна
+[2026-03-18 19:32:12] 📊 Прогресс: 30/104 за 285с
+[2026-03-18 19:32:20] ✅ 84/104: Бойко Светлана Николаевна
+[2026-03-18 19:32:27] ✅ 22/104: Морозова Екатерина Игорьевна
+[2026-03-18 19:32:29] ✅ 54/104: Никишин Михаил Васильевич
+[2026-03-18 19:32:37] ✅ 85/104: Боева Ольга Николаевна
+[2026-03-18 19:32:44] ✅ 23/104: Волков Денис Николаевич
+[2026-03-18 19:32:44] 📊 Прогресс: 35/104 за 317с
+[2026-03-18 19:32:47] 📊 Прогресс: 35/104 за 320с
+[2026-03-18 19:33:01] ⚠️ Нет данных: Идрисова Анжела Пашаевна
+[2026-03-18 19:33:02] ✅ 56/104: Табатчикова Татьяна Михайловна
+[2026-03-18 19:33:14] ✅ 87/104: Бердалин Ержан Серибекович
+[2026-03-18 19:33:16] ✅ 25/104: Попова Екатерина Юрьевна
+[2026-03-18 19:33:24] ✅ 57/104: Журба Владимир Федорович
+[2026-03-18 19:33:39] ⚠️ Нет данных: Бобков Дмитрий Александрович
+[2026-03-18 19:33:42] ⚠️ Нет данных: Ижко Иван Витальевич
+[2026-03-18 19:33:52] ✅ 59/104: Микельян Эмиль Артурович
+[2026-03-18 19:33:52] 📊 Прогресс: 40/104 за 385с
+[2026-03-18 19:34:04] ✅ 90/104: Золотарев Владимир Алексеевич
+[2026-03-18 19:34:05] ✅ 27/104: Новикова Надежда Владимировна
+[2026-03-18 19:34:05] ✅ 60/104: Лобанов Сергей Юрьевич
+[2026-03-18 19:34:10] ✅ 91/104: Мамедов Элданиз
+[2026-03-18 19:34:39] ✅ 30/104: Вербицкий Иван Владимирович
+[2026-03-18 19:34:39] 📊 Прогресс: 45/104 за 432с
+[2026-03-18 19:34:47] ✅ 63/104: Панасюк Екатерина Андреевна
+[2026-03-18 19:34:48] ✅ 94/104: Швец Самсон Петрович
+[2026-03-18 19:34:56] ✅ 64/104: Поволоцкий Максим Алексеевич
+[2026-03-18 19:35:04] ✅ 32/104: Магомирзаева Айшат Мухтаровна
+[2026-03-18 19:35:09] ✅ 65/104: Первых Татьяна Михайловна
+[2026-03-18 19:35:09] 📊 Прогресс: 50/104 за 462с
+[2026-03-18 19:35:17] ✅ 96/104: Воронина Оксана Владимировна
+[2026-03-18 19:35:25] ✅ 66/104: Юрченко Дмитрий Дмитриевич
+[2026-03-18 19:35:34] ✅ 35/104: Ангелов Дмитрий Владимирович
+[2026-03-18 19:35:34] ✅ 98/104: Протасов Денис Николаевич
+[2026-03-18 19:35:34] 
+📊 Статистика за 487с:
+[2026-03-18 19:35:34]   ✅ Успешно: 54
+[2026-03-18 19:35:34]   ⚠️ Нет данных: 50
+[2026-03-18 19:35:34]   ⏱️ Таймаут: 0
+[2026-03-18 19:35:34]   ❌ Ошибки: 0
+[2026-03-18 19:35:34]   📦 Всего обработано: 104
+[2026-03-18 19:35:34] 🔄 Сохраняем 54 записей в таблицу bankruptcy_info...
+[2026-03-18 19:35:34] ✅ Данные сохранены в таблицу bankruptcy_info
+[2026-03-18 19:35:34] ⏱️ Время выполнения парсинга fedresurs.ru: 487.73 секунд
+[2026-03-18 19:35:34] 🔄 Получаем номера дел из таблицы bankruptcy_info...
+[2026-03-18 19:35:34] ✅ Успешно получили номера дел из таблицы bankruptcy_info...
+[2026-03-18 19:35:34] 🔄 Переходим на kad.arbitr.ru...
+[2026-03-18 19:36:18] 
+🔄 Запущен режим постоянного обновления
+[2026-03-18 19:36:18] ⏱️  Интервал обновления: 45 минут
+[2026-03-18 19:36:18] 🖥️  Режим: С дисплеем
+[2026-03-18 19:36:18] ❌ Нажмите Ctrl+C для выхода
+

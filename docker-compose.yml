@@ -1,0 +1,69 @@
+version: '3.8'
+
+services:
+  everest_db:
+    image: postgres:16
+    container_name: everest_db
+    restart: unless-stopped
+    ports:
+      - "5440:5432"
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_POSTGRES_USER}
+      POSTGRES_PASSWORD: ${DB_POSTGRES_PASSWORD}
+    volumes:
+      - everest_db:/var/lib/postgresql/data
+      - ./sql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_POSTGRES_USER} -d ${DB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - everest_network
+
+  everest_parser:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    container_name: everest_parser
+    restart: unless-stopped
+    depends_on:
+      everest_db:
+        condition: service_healthy
+    environment:
+      # Подключение к БД - используем имя сервиса
+      DB_HOST: everest_db  # ← правильно для Docker сети
+      DB_PORT: 5432
+      DB_NAME: ${DB_NAME}
+      DB_USER: ${DB_POSTGRES_USER}
+      DB_PASSWORD: ${DB_POSTGRES_PASSWORD}
+      
+      DISPLAY: ${DISPLAY:-:0}
+      HEADLESS_MODE: ${HEADLESS_MODE:-0}
+      QUANTITY_INN: ${QUANTITY_INN:-6}
+      USER_AGENT: ${USER_AGENT}
+      URL_FEDRESURS: ${URL_FEDRESURS}
+      URL_KADARBITR: ${URL_KADARBITR}
+    
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./logs:/log
+      - ./cookies_fedresurs.json:/cookies_fedresurs.json
+      - ./cookies_kad.json:/cookies_kad.json
+      - ./src:/app  # Для разработки
+    
+    # Убираем network_mode: host и используем сеть
+    networks:
+      - everest_network
+    
+    stdin_open: true
+    tty: true
+
+networks:
+  everest_network:
+    driver: bridge
+
+volumes:
+  everest_db:
