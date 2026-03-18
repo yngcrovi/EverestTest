@@ -1,9 +1,10 @@
 FROM python:3.12-slim
 
-# Все необходимые зависимости для Chromium
+# Устанавливаем все зависимости для Chromium + Xvfb
 RUN apt-get update && apt-get install -y \
     wget \
     gnupg \
+    # Зависимости Chromium (твои)
     libx11-6 \
     libxcb1 \
     libxcomposite1 \
@@ -28,7 +29,11 @@ RUN apt-get update && apt-get install -y \
     libnspr4 \
     libgbm1 \
     libdrm2 \
-    **libasound2** \ 
+    libasound2 \
+    # Добавляем Xvfb (виртуальный экран)
+    xvfb \
+    # Для корректной работы dbus
+    dbus-x11 \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
@@ -36,10 +41,10 @@ WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Устанавливаем браузер Playwright
 RUN playwright install chromium
 
 COPY . .
 
-# RUN mkdir -p /log
-
-CMD ["python", "main.py"]
+# Скрипт для запуска с Xvfb
+CMD xvfb-run -a --server-args="-screen 0 1280x1024x24" python main.py

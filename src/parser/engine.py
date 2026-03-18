@@ -4,7 +4,7 @@ import asyncio
 import time
 from datetime import datetime
 from log.log import log_print
-
+from env import env
 print = log_print 
 
 class AsyncPersistentBrowserManager:
@@ -62,7 +62,7 @@ class AsyncPersistentBrowserManager:
         
         # Создаем контекст
         self.context = await self.browser.new_context(
-            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36',
+            user_agent=env.USER_AGENT,
             viewport={'width': 1920, 'height': 1080}
         )
         

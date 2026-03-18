@@ -40,7 +40,6 @@ async def main():
         start_time = time.time()
 
         print('🔄 Ищем данные о банкротстве...')
-        # await fedresurs_parser.get_data_about_bankruptcy(people_data)
 
         await fedresurs_parser.get_data_about_bankruptcy_parallel(people_data)
 
@@ -48,13 +47,6 @@ async def main():
         execution_time = end_time - start_time
         print(f"⏱️ Время выполнения парсинга fedresurs.ru: {execution_time:.2f} секунд")
 
-        # manager.stop()
-        # await manager.close()
-
-        # Переходим в режим поддержания сессии
-        # keep_alive_task = asyncio.create_task(manager.keep_alive())
-        
-        # await keep_alive_task
         print('🔄 Получаем номера дел из таблицы bankruptcy_info...')
         bankruptcy_data = await BankruptcyInfoService().select_data()
         print('✅ Успешно получили номера дел из таблицы bankruptcy_info...')
@@ -65,33 +57,6 @@ async def main():
         await asyncio.sleep(2)
 
         el_jusice_parser = ElectronicJusiceParser(page)
-
-        # bankruptcy_docs_data: list[dict] = []
-
-        # print('🔄 Поиск информации о документах банкротсва...')
-        # start_time = time.time()
-        # for i, el in enumerate(bankruptcy_data):
-        #     await el_jusice_parser.get_case_num_field(el['case_num'])
-        #     await asyncio.sleep(2)
-        #     link = await el_jusice_parser.get_link_case_num()
-        #     if link:
-        #         await manager.go_to(link)
-        #         await asyncio.sleep(2)
-        #         data = await el_jusice_parser.go_to_electronic_case()
-        #         if data:
-        #             data['link'] = link
-        #             data['case_num_id'] = el['id']
-        #             bankruptcy_docs_data.append(data)
-        #     await manager.go_to(url_el_jusice)
-        #     await asyncio.sleep(1)
-        #     print('✅ Выполнено:', el['case_num'], f'({i+1}/{len(bankruptcy_data)})')
-        # end_time = time.time()
-        # execution_time = end_time - start_time
-        # print(f"⏱️ Время выполнения парсинга kad.arbitr.ru: {execution_time:.2f} секунд")
-
-        # print('🔄 Записываем данные документов о банкротстве...')
-        # await BankruptcyDocsDataService().insert_data(bankruptcy_docs_data)
-        # print('✅ Данные о документах банкротсвта успешно записаны')
 
         await el_jusice_parser.process_bankruptcy_docs_parallel(bankruptcy_data)
 
