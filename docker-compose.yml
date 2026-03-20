@@ -51,10 +51,9 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
       - ./log:/log
       - ./cookies_fedresurs.json:/cookies_fedresurs.json
-      - ./cookies_kad.json:/cookies_kad.json
+      - ./cookies_el_jusice.json:/cookies_el_jusice.json
       - ./src:/app  # Для разработки
     
-    # Убираем network_mode: host и используем сеть
     networks:
       - everest_network
     
