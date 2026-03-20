@@ -27,17 +27,7 @@
     "secure": true,
     "httpOnly": true,
     "sameSite": "Lax",
-    "expirationDate": 1805398028
-  },
-  {
-    "name": "_ym_isad",
-    "value": "2",
-    "domain": ".fedresurs.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false,
-    "sameSite": "Lax",
-    "expirationDate": 1773902380
+    "expirationDate": 1805502499
   },
   {
     "name": "__ddg1_",
@@ -90,16 +80,6 @@
     "expirationDate": 1808411204.037098
   },
   {
-    "name": "_gid",
-    "value": "GA1.2.1435888154.1773831784",
-    "domain": ".arbitr.ru",
-    "path": "/",
-    "secure": false,
-    "httpOnly": false,
-    "sameSite": "Lax",
-    "expirationDate": 1773937604
-  },
-  {
     "name": "tmr_lvid",
     "value": "487415f22945265bdb08e8fdc93011f8",
     "domain": ".arbitr.ru",
@@ -150,16 +130,6 @@
     "expirationDate": -1
   },
   {
-    "name": "_ym_isad",
-    "value": "2",
-    "domain": ".arbitr.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false,
-    "sameSite": "Lax",
-    "expirationDate": 1773903784
-  },
-  {
     "name": "domain_sid",
     "value": "yMVSqHywRXhL0l8ttuZhi%3A1773831784902",
     "domain": "kad.arbitr.ru",
@@ -198,26 +168,6 @@
     "httpOnly": false,
     "sameSite": "Lax",
     "expirationDate": 1805387169.135746
-  },
-  {
-    "name": "prcl",
-    "value": "481636faa5d657",
-    "domain": ".vk.com",
-    "path": "/",
-    "secure": true,
-    "httpOnly": true,
-    "sameSite": "Lax",
-    "expirationDate": 1773933969.13578
-  },
-  {
-    "name": "tmr_detect",
-    "value": "0%7C1773851194873",
-    "domain": "kad.arbitr.ru",
-    "path": "/",
-    "secure": false,
-    "httpOnly": false,
-    "sameSite": "Lax",
-    "expirationDate": 1773937594
   },
   {
     "name": "_ga_Q2V7P901XE",
@@ -261,83 +211,33 @@
   },
   {
     "name": "qrator_jsr",
-    "value": "v2.0.1773867277.514.2599377flFq5cuDt|CG89PYvUQkECw6KS|tvF3rGAy5Oex4u7Lbg7rQ/mY514x38nr83eeDiR0iG5KBfQl6pBakUmNMv6+/6xj4Delhw2OtLDxBLCpxC6Z0w==-OoNiaGE+3d9VBFBJ19gQL2DoL/Y=-00",
+    "value": "v2.0.1773966497.806.2599377f3naIWCM4|V8ZnNIjGMcHhpb2T|FZ83y8SEDcsd/zEjYQ5rVmpsZAPkA8GxqSsk425zRV4AiWh6V9wQ9wclUePyO+XAnROdgXziPFur5SDpU3VO8g==-jurFHzFpniqPHk73xa+gHxasmXk=-00",
     "domain": ".fedresurs.ru",
     "path": "/",
     "secure": false,
     "httpOnly": false,
     "sameSite": "Lax",
-    "expirationDate": 1773867577.385365
+    "expirationDate": 1773966797.816736
   },
   {
     "name": "qrator_jsid2",
-    "value": "v2.0.1773867277.514.2599377flFq5cuDt|Emq4Op1XP3DAA51u|yksqrkuTfYNVomSju+hzmGf+mErbWY1M4Iu7V7KPqtS/98GROGu+RpoYC7lLu/3iVW1NT34QwUrDzf2rEJdYoUTGqM/UrdtXpvk4AjlAiFCe2EoQN5INRYfZ/0pY3jpmP1jJJuNMVMpkTyA8b+yqo9xhSfCL4OF0SOLZcqhfJ+c=-33P26jE1LLTgHishD7WrDE3o5n4=",
+    "value": "v2.0.1773966497.806.2599377f3naIWCM4|kRQNlr3CCAVQznp0|jZxN4i+RVg/fFZpbl1cCSi0bNvzQQk5Py7RA7ZbF574PhqzxZXrvyFtMtKKGH39zIGlzltD74kyP8Gu2wpaEW0jklsw9Ggsdg2RYWUPqsZXl7EVyPlUpb0Ugt3MYwqIUHBxY1tc/l2JRgcpKIfXq7EusH/41xKq5gWDMWI6Stgk=-BQMYql8glnrYY2jsZ34oOiMakco=",
     "domain": ".fedresurs.ru",
     "path": "/",
     "secure": false,
     "httpOnly": true,
     "sameSite": "Lax",
-    "expirationDate": 1773868278.716922
+    "expirationDate": 1773967498.723804
   },
   {
-    "name": "yabs-sid",
-    "value": "893797611773867280",
-    "domain": "mc.yandex.ru",
+    "name": "_ym_isad",
+    "value": "2",
+    "domain": ".fedresurs.ru",
     "path": "/",
     "secure": true,
     "httpOnly": false,
-    "sameSite": "None",
-    "expirationDate": -1
-  },
-  {
-    "name": "i",
-    "value": "4jEP+hgz//RtSeafN6jgJ3HJZhXoNFS5p9qmmN1LCwjR8I1TsH4FFNdIU+wxVPEw+voaEjHnJULeIMp9NRHlTjSJpco=",
-    "domain": ".yandex.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": true,
-    "sameSite": "None",
-    "expirationDate": 1808427280.346256
-  },
-  {
-    "name": "yandexuid",
-    "value": "468771251773867280",
-    "domain": ".yandex.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false,
-    "sameSite": "None",
-    "expirationDate": 1808427280.346289
-  },
-  {
-    "name": "yuidss",
-    "value": "468771251773867280",
-    "domain": ".yandex.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false,
-    "sameSite": "None",
-    "expirationDate": 1808427280.346303
-  },
-  {
-    "name": "ymex",
-    "value": "2089227280.yrts.1773867280#2089227280.yrtsi.1773867280",
-    "domain": ".yandex.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": false,
-    "sameSite": "None",
-    "expirationDate": 1805403280
-  },
-  {
-    "name": "receive-cookie-deprecation",
-    "value": "1",
-    "domain": ".yandex.ru",
-    "path": "/",
-    "secure": true,
-    "httpOnly": true,
-    "sameSite": "None",
-    "expirationDate": 1805403280
+    "sameSite": "Lax",
+    "expirationDate": 1774038499
   },
   {
     "name": "_ym_visorc",
@@ -347,16 +247,76 @@
     "secure": true,
     "httpOnly": false,
     "sameSite": "None",
-    "expirationDate": 1773869080
+    "expirationDate": 1773968307
   },
   {
-    "name": "bh",
-    "value": "YJCi7M0Gah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPmNfOhwg=",
+    "name": "yabs-sid",
+    "value": "858979321773966506",
+    "domain": "mc.yandex.ru",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "None",
+    "expirationDate": -1
+  },
+  {
+    "name": "i",
+    "value": "yjrVoz0WfA9aIMKKEdQ2TxwJQyZBmvVwf3pUhF7Yp/2SN+5q2t3sWyy3nAtRBGhYyyTrsd1VTNKtlg3nScUJEtopGMQ=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "None",
+    "expirationDate": 1808526507.00929
+  },
+  {
+    "name": "yandexuid",
+    "value": "3483270501773966506",
     "domain": ".yandex.ru",
     "path": "/",
     "secure": true,
     "httpOnly": false,
     "sameSite": "None",
-    "expirationDate": 1808427280
+    "expirationDate": 1808526507.009334
+  },
+  {
+    "name": "yuidss",
+    "value": "3483270501773966506",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "None",
+    "expirationDate": 1808526507.009352
+  },
+  {
+    "name": "ymex",
+    "value": "2089326506.yrts.1773966506#2089326506.yrtsi.1773966506",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "None",
+    "expirationDate": 1805502506
+  },
+  {
+    "name": "receive-cookie-deprecation",
+    "value": "1",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "secure": true,
+    "httpOnly": true,
+    "sameSite": "None",
+    "expirationDate": 1805502506
+  },
+  {
+    "name": "bh",
+    "value": "YKup8s0Gah7cyuH/CJLYobEDn8/h6gP7+vDnDev//fYPmNfOhwg=",
+    "domain": ".yandex.ru",
+    "path": "/",
+    "secure": true,
+    "httpOnly": false,
+    "sameSite": "None",
+    "expirationDate": 1808526507
   }
 ]

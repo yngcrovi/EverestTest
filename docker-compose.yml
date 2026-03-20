@@ -49,7 +49,7 @@ services:
     
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix:rw
-      - ./logs:/log
+      - ./log:/log
       - ./cookies_fedresurs.json:/cookies_fedresurs.json
       - ./cookies_kad.json:/cookies_kad.json
       - ./src:/app  # Для разработки
